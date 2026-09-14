@@ -219,8 +219,3 @@ grep '^RUN_DAILY=' /etc/chkrootkit.conf 2>/dev/null || true
 echo ""
 echo "  UFW:"
 ufw status verbose || true
-
-echo ""
-echo "Run the course validator with:"
-echo "  cd /var/www/Client_Scripts"
-echo "  sudo ./Week2_Confirmation_Script.sh"
