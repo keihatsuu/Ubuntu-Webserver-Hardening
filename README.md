@@ -68,7 +68,7 @@ The software versions reflect the course image and are not recommendations for a
 
 ## Usage
 
-1. Take a VMware snapshot and save open work.
+1. Make Sure to backup before use. just incase 😉
 2. Review the script, particularly the SSH, firewall, mount, and AppArmor changes.
 3. Open a terminal **inside the VM console**. Do not run this over SSH.
 4. Copy `website-hardening.sh` into the VM and open its directory.
